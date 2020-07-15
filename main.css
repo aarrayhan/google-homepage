@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+/* Nav bar */
+
+ul.topbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+    font-size: 13px;
+}
+.bar-links {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.bar-btns {
+    padding-right: 15px;
+}
+
+.app-icon {
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;
+}
+
+#sign-in-btn {
+    display: inline-block;
+    line-height: 28px;
+    text-decoration: none;
+    padding: 0 12px;
+    color: white;
+    background: #437edd;
+    border: 1px;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 2px;
+}
+
+/* Google Logo*/
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    padding-bottom: 30px;
+}
+
+/* Search form */
+
+.search-main {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    width: 582px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    outline: none;
+}
+
+/* ".searchbox" which contains the 'input'
+element for search is built on top of the ".search"
+(flex)box to make space for magnifying
+glass and mic icon */ 
+
+.searchbox {
+    position: relative;
+    border: none;
+    outline: none;
+    height: 42px;
+    width: 520px;
+}
+
+.search-icon {
+    opacity: .3;
+    position: relative;
+    padding: 15px 10px 15px 15px;
+    height: 15px;
+    width: auto;
+}
+
+.mic-icon {
+    position: relative;
+    height: 15px;
+    padding: 15px 15px 15px 10px;
+    width: auto;
+    cursor: pointer;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input {
+    font-size: 14px;
+    color: #222;
+}
+
+.buttons {
+    background-color: #f2f2f2;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    color: #5f6368;
+}
+
+.buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/* Language changing option */
+
+.lang {
+    display: inline-block;
+    line-height: 28px;
+    font-size: 13px;
+    color: #222;
+}
+
+.lang-name {
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+/* Footer */
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    color: #222;
+}
+
+.country {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding-left: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer-ll {
+    padding-left: 30px;
+}
+
+.footer-lr {
+    padding-right: 30px;
+}
+
+.footer-ll > a {
+    text-decoration: none;
+    padding-right: 27px;
+    color: #5f6368;
+}
+
+.footer-lr > a {
+    text-decoration: none;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
