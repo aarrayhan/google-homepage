@@ -1,9 +1,9 @@
-This project is about building a Google Homepage with HTML and CSS.
+# Google Homepage (Clone)
 
-This project used mostly Flexbox to align elements.
+This project is about building a static Google Homepage with **HTML** and **CSS**. I have used mostly *Flexbox* to align elements.
 
-##Limitations in my skills that I found:
+## Limitations in my skills that I found:
 
-1. Can't use image as CSS background. So the workaround was to use images in HTML. This was the most challenging thing to do.
-2. Need to work on margins and padding.
-3. Need to work on box-shadow. Used properties from actual Google homepage to create shadow effects.
+1. Can't use <ins>image as CSS background</ins>. So the workaround was to use images in HTML. This was the most challenging thing to do.
+2. Need to work on <ins>margins and padding</ins>.
+3. Need to work on <ins>box-shadow</ins>. Used properties from actual Google homepage to create shadow effects.
